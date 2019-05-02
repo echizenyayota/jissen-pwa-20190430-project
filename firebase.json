@@ -5,6 +5,15 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
+    "redirects": [ {
+        "source" : "/index.html",
+        "destination" : "/index.html",
+        "type" : 301
+        }, {
+        "source" : "/firebase/*",
+        "destination" : "https://jissen-pwa-20190430-project.firebaseapp.com/",
+        "type" : 302
+    } ]
   }
 }

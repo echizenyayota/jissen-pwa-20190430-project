@@ -26,7 +26,7 @@
       "sizes":"512x512",
       "type": "image/png"
     }],
-  "start_url": "/jissen-pwa-20190430-project/public/",
+  "start_url": "/public/",
   "display": "standalone",
   "background_color": "#c00",
   "theme_color": "#000"
